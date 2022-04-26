@@ -1,0 +1,44 @@
+/* this file is used for the goRestApi html page */
+
+.mainContent {
+    margin: 0px 50px;
+    text-align: center;
+}
+
+.buttons {
+    margin: 20px 0;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: antiquewhite;
+    border-radius: 5px;
+    border-width: 0 1px 1px 0;
+    color: blue;
+}
+
+.data {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+th,td {
+    border: 1px solid;
+    padding: 10px 30px;
+}
+
+.fetchTables {
+    display: none;
+}
+
+.loaderdiv{
+    justify-content: center;
+    display: flex;
+}
+
+#city{
+    padding: 10px 20px;
+    margin: 10px;
+}

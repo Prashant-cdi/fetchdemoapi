@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <div class="mainContent">
+
+        <div class="buttons">
+
+            
+            <button type="button" onclick="getAllUsers();">Get Users</button>
+            <button type="button" onclick="getAllPosts();">Get Posts</button>
+            <button type="button" onclick="getComments();">Get Comments</button>
+            <button type="button" onclick="getTodos();">Todos</button>
+
+
+        </div>
+        
+        <div class="data">
+            
+            <div class="loaderdiv">
+                <iframe src="" alt="" id="loader" width="480" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+
+            </div>
+            <table id="table1" class="fetchTables">
+                <thead>
+                    <tr>
+                        <th>id</th>
+                        <th>name</th>
+                        <th>email</th>
+                        <th>gender</th>
+                        <th>status</th>
+                    </tr>
+
+                </thead>
+
+                <tbody id="target">
+
+                        
+                </tbody>
+            </table>
+
+            <table id="table2" class="fetchTables">
+                <thead>
+                    <tr>
+                        <th>id</th>
+                        <th>User Id</th>
+                        <th>Title</th>
+                        <th>body</th>
+                    </tr>
+
+                </thead>
+
+                <tbody id="target2">
+
+                        
+                </tbody>
+            </table>
+
+            <table id="table3" class="fetchTables">
+                <thead>
+                    <tr>
+                        <th>id</th>
+                        <th>Post Id</th>
+                        <th>Name</th>
+                        <th>Email</th>
+                        <th>Body</th>
+                    </tr>
+
+
+                </thead>
+
+                <tbody id="target3">
+
+                        
+                </tbody>
+            </table>
+
+            <table id="table4" class="fetchTables">
+                <thead>
+                    <tr>
+                        <th>id</th>
+                        <th>User Id</th>
+                        <th>Title</th>
+                        <th>Due On</th>
+                        <th>Status</th>
+                    </tr>
+
+                </thead>
+
+                <tbody id="target4">
+
+                        
+                </tbody>
+            </table>
+
+        </div>
+    </div>    
+        <script src="js/main1.js"></script>
+</body>
+
+</html>

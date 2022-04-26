@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+    <div class="mainContent">
+
+        <form action="">
+            <input type="text" name="city" id="city" placeholder="enter a city"> <br>
+            <button type="button" onclick = "getWeather();">Get Details</button>
+        </form>
+        
+
+        <div class="data">
+            
+            <div class="loaderdiv">
+
+                <iframe src="" alt="" id="loader" width="480" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+
+            </div>
+
+            <table id="table1" class="fetchTables">
+                <tr>
+    
+                    <th>temperature in celcius</th>
+                    <th>temperature in fahrenheit</th>
+                    <th>Country</th>
+                    <th>Time</th>
+                    <th>Condition</th>
+                    <th>Icon</th>
+                 
+    
+                </tr>
+                <tr>
+                    <td id="celcius"></td>
+                    <td id="fahr"></td>
+                    <td id="country"></td>
+                    <td id="time"></td>
+                    <td id="condition"></td>
+                    <td><img alt="" id="icon"></td>
+                </tr>
+
+            </table>
+  
+        </div>
+
+    </div>
+    <script src="js/main2.js"></script>
+</body>
+</html>
